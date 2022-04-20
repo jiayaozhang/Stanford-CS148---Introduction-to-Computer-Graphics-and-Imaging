@@ -1,5 +1,4 @@
-# Stanford-CS148
-## Introduction-to-Computer-Graphics-and-Imaging
+# Stanford CS148 Introduction to Computer Graphics and Imaging
 
 The short course would last 10 weeks for learning
 
@@ -12,7 +11,7 @@ Ron Fedkiw awarded an Academy Award from The Academy of Motion Picture Arts and 
 website link: https://web.stanford.edu/class/cs148/assignments.html
 
 
-### Introduction
+## Introduction
 
 Why graphics?
 
@@ -37,7 +36,7 @@ Software:  ILM, RenderMan(Pixar), Weta, Dreamworks, AfterEffect, Houdini
 
 * user interface
 
-### Light and Colors
+## Light and Colors
 
 C = 299,799,458 m/s (In Vacuum)
 Refraction(折射) & total internal reflection(relection))
@@ -49,7 +48,7 @@ Colors
 Color Space : RGB, XYZ, Munsell, Lab, HSV
 
 
-#### Quiz
+### Quiz
 
 1. What is the difference between radiance and irradiance?
 2. Explain what a BRDF is and why it is important for graphics.
@@ -62,49 +61,49 @@ Color Space : RGB, XYZ, Munsell, Lab, HSV
 9. Briefly explain why both scanline renderers and ray tracers are useful?
 
 
-### Scanline Rendering
+## Scanline Rendering
 
 
-### Scanline Rendering & Geometric Modeling
+## Scanline Rendering & Geometric Modeling
 
 
-### Geomretic Modeling 
+## Geomretic Modeling 
  
 
-### BRDF & Lighting Equation
+## BRDF & Lighting Equation
 
 
-### Shading
+## Shading
 
 
-### Texture Mapping
+## Texture Mapping
 
 
-### Texture Synthesis
+## Texture Synthesis
 
 
-### Ray Tracing 
+## Ray Tracing 
 
 
-### Sampling
+## Sampling
 
 
-### Relection and Transmission
+## Relection and Transmission
 
 
-### Acceleration Structures
+## Acceleration Structures
 
 
-### Global illumination
+## Global illumination
 
 
-### Photon Mapping
+## Photon Mapping
 
 
-### Advanced Rendering
+## Advanced Rendering
 
 
-### Final Project
+## Final Project
 
 
 ### HW 1. Set up environment
