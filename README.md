@@ -106,7 +106,7 @@ Color Space : RGB, XYZ, Munsell, Lab, HSV
 ## Final Project
 
 
-### HW 1. Set up environment
+### HW 1. Blender Basics
 
 ### HW 2. OpenGL
 
