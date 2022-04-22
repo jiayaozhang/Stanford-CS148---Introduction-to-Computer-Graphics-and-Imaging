@@ -12,7 +12,7 @@
 # HW 3. Geometric modeling
 
 
-![student work 03](image/student_work_03.png)
+![student work 03](HW3/checkpoint02_blinn_phong_model.png)
 
 
 # HW 4. Lignting & shading
