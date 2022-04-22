@@ -6,7 +6,7 @@
 # HW 2. OpenGL
 
 
-![student work 02](image/student_work_02.png)
+![student work 02](HW2/workbench_flat_lighting.png)
 
 
 # HW 3. Geometric modeling
