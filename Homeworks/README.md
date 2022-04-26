@@ -13,11 +13,13 @@
 
 
 ![student work 03](HW3/checkpoint02_blinn_phong_model.png)
-
+![student work 04](HW3/checkpoint06_transmission.png)
 
 # HW 4. Lignting & shading
 
-![student work 04](image/student_work_04.png)
+
+![student work 05](HW4/shade_bsdf_materials.png)
+![student work 06](HW4/shade_hdri.png)
 
 
 # HW 5. Texturing
