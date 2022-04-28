@@ -22,28 +22,35 @@
 ![student work 06](HW4/shade_hdri.png)
 
 
-# HW 5. Texturing
+# HW 5. RayTracer
 
 
-![student work 04](image/student_work_04.png)
+![student work 07](HW5/checkpoint00_shadow_ray_condition.png)
 
 
-# HW 6. Sampling
+# HW 6. Advanced Rendering
 
 
-![student work 04](image/student_work_04.png)
+![student work 08](HW6/volumetric_absorption.png)
+![student work 09](HW6/depth_field.png)
 
 
-# HW 7. Acceleration structures
+# HW 7. Geometry Modeling
 
 
-![student work 04](image/student_work_04.png)
+![student work 10](HW7/Simulation_Diana.png)
+![student work 11](HW7/Diana.png)
 
 
-# HW 8. Photon mapping
+# HW 8. Texture mapping
 
 
-![student work 04](image/student_work_04.png)
+![student work 12](HW8/final.png)
 
 
+## Final Project
 
+
+![student work 14](final_project/night_muse.jpg)
+<!-- ![student work 15](final_project/procedural_building.png)
+ -->
