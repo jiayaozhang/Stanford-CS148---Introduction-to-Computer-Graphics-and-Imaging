@@ -79,6 +79,8 @@ Equation of a line : y = mx + b
 
 To derive Bresenham’s algorithm, two steps must be taken. The first step is transforming the equation of a line from the typical slope-intercept form into something different; and then using this new equation for a line to draw a line based on the idea of accumulation of error.
 
+
+//neeed to update the codes later
 Rasterizing Circle : Midpoint Algorithm
 
 Filling Triangles, two methods for filling:
@@ -134,8 +136,6 @@ http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthogra
 ## Geomretic Modeling 
  
 
-
-
 ## BRDF & Lighting Equation
 
 
@@ -144,9 +144,45 @@ http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthogra
 
 ## Texture Mapping
 
+SIMD : Single Instruction Multiple Data
+
+NDC = M(proj) x M(eye) x M(model) x V
+
+OpenGL 1.x Pipeline :
+Display List(Stores subrouties) -> Evaluator(Construct geometric objects) -> Pre-Vertex Operations(Change geometry) / Primitive Assembly(Store primitive shapes) -> Rasterization -> Pre-Fragment Operations(Modify and combine per-pixel information) -> Frame Buffer(Prepare image to be displayed)
+
+Fragment : The data necessary to generate a single pixel’s worth of a primitive.
+
+Vertex Lighting
+Normal) : A vector perpendicular to a surface; constant over a plane
+
+* Specifying Normals
+* Diffuse Term
+* Specular Term
+* Ambient light
+  Color = (DiffuseFactor x DiffuseColor) + ([DiffuseFactor > 0] x SpecularFactor x SpecularColor) + AmbientColor
+
+Vertex Lighting types : Directional Light Source, Point Light Source, Spot Light Source, Ambient Light Source
+
+Next Generation APIs: Lower Driver/CPU Overhead, Support multi-core CPUs
+
+* Vulkan(Nextgen OpenGL) 随着2016年02月16日Vulkan 1.0 规范发布，Opengl以及Opengl ES可能还有几年的生命周期，未来将主要基于Vulkan API。
+* DirectX 12(Microsoft)
+* Metal(Apple)
+
 
 ## Texture Synthesis
 
+Texture Mapping is a method for defining high frequency detail, surface texture, or color information on a computer-generated graphic or 3D model. Its application to 3D graphics was pioneered by Edwin Catmull in 1974.
+
+* A technique for specifying variationsin surface reflectance properties of an object
+* Store the reflectance as an image and “map” it onto the object
+* The stored image is called a texture map
+* A texture map is defied in its own 2D coordinate system, parameterized by (u,v)
+* Establish a correspondence by assigning (u,v) coordinates to triangle vertices
+* Then, for each pixel inside a triangle, calculate the pixel’s (u,v) texture coordinates using barycentric interpolation of the triangle vertices’ texture coordinates
+
+UV mapping is the 3D modeling process of projecting a 2D image to a 3D model’s surface for texture mapping. The UV Mapping process at its simplest requires three steps: unwrapping the mesh, creating the texture, and applying the texture.
 
 ## Ray Tracing 
 
@@ -168,7 +204,10 @@ http://www.scratchapixel.com/lessons/3d-basic-rendering/perspective-and-orthogra
 
 ## Advanced Rendering
 
+实践：渲染一个实际的场景(基于Ray Tracing 或者 Scanline Rendering)
 
+回顾整理之前的知识，也是时候实践和系统的阅读参考书来完善，巩固知识体系了：
 
-
-//neeed to update the codes later
+Learn OpenGL
+Fundamentals of Computer Graphics, 3rd Edition
+在夯实基础理论及简单的实践后，可以学习使用Unity这样的3D引擎来实现更复杂的游戏

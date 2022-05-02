@@ -10,9 +10,34 @@ Ron Fedkiw awarded an Academy Award from The Academy of Motion Picture Arts and 
 
 website link: https://web.stanford.edu/class/cs148/assignments.html
 
+* Light and Color
 
+* HW1: set up environment
 
-![student work](IMAGE/cs148.png)
+* Scanline Rendering
 
+* HW2: OpenGL
 
-//  
+* Geometric Modeling
+
+* HW3: Geometric Modeling
+
+* Shading
+
+* HW4: Lighting & Shading
+
+* Texture Synthesis
+
+* HW5: Texturing
+
+* Sampling
+
+* HW6: Sampling
+
+* Acceleration Structures
+
+* HW7: Acceleration Structures
+
+* Photon Mapping
+
+* Final Project
